@@ -165,7 +165,7 @@ deploy:
   provider: releases
   api_key: ${GITHUB_TOKEN}
   file_glob: true
-  file: *.7z
+  file: "*.7z"
   tag_name: v0.0.0dev
   target_commitish: ${TRAVIS_COMMIT}
   draft: false
