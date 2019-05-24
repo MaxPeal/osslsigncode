@@ -35,15 +35,15 @@ addons:
       - libyaml-dev
       - unixodbc-dev
     # - zlib1g-dev
-matrix:
-  include:
-    - os: linux
-      compiler: gcc
-    - os: linux
-      compiler: clang
-    - os: osx
-      osx_image: xcode8.3
-compiler: clang
+#matrix:
+#  include:
+#    - os: linux
+#      compiler: gcc
+#    - os: linux
+#      compiler: clang
+#    - os: osx
+#      osx_image: xcode8.3
+#compiler: clang
 
 matrix:
   include:
