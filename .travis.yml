@@ -1,1 +1,5 @@
 # .travis.yml dummy file @master
+git:
+  depth: 10
+language: c
+cache: ccache
