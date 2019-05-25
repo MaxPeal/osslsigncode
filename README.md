@@ -29,6 +29,7 @@ removal and extraction.
 
 The usual way:
 ```
+  ./autogen.sh # not required when building from tarball
   ./configure
   make
   make install
